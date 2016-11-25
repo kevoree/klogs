@@ -1,0 +1,35 @@
+{
+  "name": "klogs",
+  "version": "1.0.0",
+  "description": "Pipe Kevoree's Java logger into this module to enjoy pretty logs..(klogs hah)",
+  "main": "index.js",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "klogs": "./index.js"
+  },
+  "keywords": [
+    "kevoree",
+    "java",
+    "logger"
+  ],
+  "author": "Maxime Tricoire <max.tricoire@gmail.com>",
+  "license": "LGPL-3.0",
+  "dependencies": {
+    "chalk": "^1.1.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.10.2"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true
+    },
+    "extends": ["eslint:recommended"],
+    "rules": {
+      "no-console": 0
+    }
+  }
+}
