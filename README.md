@@ -16,5 +16,5 @@ yarn global add klogs
 ### Usage
 Use the **Kevoree Java runtime** just like before, but pipe the content to **klogs**:
 ```sh
-java -jar kevoree.jar | klogs
+java -jar kevoree.jar 2>&1 | klogs
 ```
